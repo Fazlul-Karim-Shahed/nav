@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px){
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my_nav {
+  flex-direction: column;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: none;
+    border-top: 1px solid white;
+    margin-top: 25px;
+}
+
+.right ul{
+    flex-direction: column; 
+}
+
+.right ul li{
+    margin: 15px 0px;
+}
+
+.right ul li a{
+    margin: 0px;
+}
+
+
+.line:hover{
+    cursor: pointer;
+}
+
+
+
+.line-1, .line-2, .line-3{
+    height: 3px;
+    width: 22px;
+    background-color: antiquewhite;
+    margin: 3px 0px;
+}
+
+
+.dropdown_content{
+    top: -15px;
+    left: 55px;
+    background-color:rgb(47, 79, 79);
+    /* background-color:rgb(31, 167, 167); */
+}
+
+}
